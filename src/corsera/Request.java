@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Request {
+ class Request {
 	public Request(int arrival_time, int process_time) {
 		this.arrival_time = arrival_time;
 		this.process_time = process_time;
@@ -13,7 +13,6 @@ public class Request {
 	public int arrival_time;
 	public int process_time;
 }
-
 class Response {
 	public Response(boolean dropped, int start_time) {
 		this.dropped = dropped;
